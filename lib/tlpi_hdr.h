@@ -13,11 +13,7 @@
 
 #include "error_functions.h" /* error 처리 함수 선언 */
 
-typedef enum
-{
-    FALSE,
-    TRUE
-} Boolean;
+typedef enum { FALSE, TRUE } Boolean;
 
 #define min(m, n) ((m) < (n) ? (m) : (n))
 #define max(m, n) ((m) > (n) ? (m) : (n))
