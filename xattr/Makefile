@@ -1,6 +1,8 @@
 include ../Makefile.inc
 
-LINUX_EXE = idshow
+GEN_EXE = 
+
+LINUX_EXE = t_setxattr xattr_view
 
 EXE = ${GEN_EXE} ${LINUX_EXE}
 
